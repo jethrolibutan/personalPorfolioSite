@@ -1,0 +1,252 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    /* background-color:rgb(233, 230, 230); */
+    text-align: center;
+    top: 0;
+    padding: 10px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+li{
+    float: left;
+    display: inline;
+}
+
+.nav-links{
+    text-align: right;
+    text-indent: 15px;
+    padding-left: 200px;
+    border-bottom-left-radius: 18px;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-links:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-buttons{
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:black;
+}
+
+.text1{
+    float: right;
+    align-content: right;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+
+.logo{
+    height: 75px;
+    width: 75px;
+}
+
+.logo img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Body Section Starts */
+
+/* About Me Section Starts */
+
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.about-me{
+    /* background-color:rgb(233, 230, 230); */
+    margin: auto;
+    padding: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    position: auto;
+}
+
+.aboutmepic{
+   border-radius: 10% 30% 50% 70%;
+   max-width: 300px;
+   height: 70%;
+   width: 50%;
+   background-color: transparent;
+}
+
+.aboutmepic img{
+    border-radius: 10% 30% 50% 70%;
+    height: 75%;
+    width: 75%;
+ }
+
+.text-right{
+    flex-shrink: 1;
+    max-width: 360px;
+}
+
+.text-right .about-me-1 {
+    font-size: 21px;
+    padding-bottom: -20px;
+    max-height: 50px;
+}
+
+.text-right .about-me-text {
+    font-size: 14px;
+}
+
+.download-CV{
+    display: block;
+    padding: 5px 5px 5px 5px;
+    margin-right: 25px;
+    border-radius: 5%;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+    background-color: rgb(0, 114, 207);
+    color: white;
+}
+
+.download-CV .download-CV:visited{
+    color:white;
+}
+
+.contact-me{
+    display: block;
+    margin-right: 25px;
+    border-radius: 5%;
+    padding: 5px 5px 5px 5px;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+    background-color: rgb(0, 114, 207);
+    color:white;
+}
+
+/* About Me Section Ends */
+
+.freelance{
+    margin: auto;
+}
+
+.freelance-title{
+    text-align: center;
+    align-items: top;
+    font-size: 21px;
+    background-color: white; 
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.freelance-desc{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 50px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* Portfolio Section Starts */
+
+.portfolio-header{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.grid1{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 55px;
+}
+
+.gridItems{
+    margin: 10px
+}
+
+/* Porftfolio Section Ends */
+
+
+/* Get in Touch Section starts */
+
+.contact-me-form{
+    text-align: center;
+}
+
+input{
+    padding: 12px 20px;
+    width: 25%;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    justify-content: center;
+}
+
+textarea{
+    padding: 10px 250px 10px 250px;
+    min-width: 25%;
+    max-width: 25%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    margin-bottom: 13px;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-form{
+    text-align: center;
+}
+
+/* Get in Touch Section ends */
