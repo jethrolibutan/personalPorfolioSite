@@ -271,6 +271,10 @@ textarea {
     margin: auto;
   }
 
+  .linkService {
+    display: none;
+  }
+
   /* Body Section Starts */
 
   /* About Me Section Starts */
@@ -337,7 +341,9 @@ textarea {
   /* About Me Section Ends */
 
   .freelance {
+    display: none;
     padding: 10em;
+    width: 515px;
     margin: auto;
   }
 
@@ -416,11 +422,10 @@ textarea {
 
   /* Portfolio Section Starts */
 
-  .portfolio-header {
-    display: none;
-    text-align: center;
-    margin-top: 75px;
-    margin-bottom: 50px;
+  .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .gridItems {
