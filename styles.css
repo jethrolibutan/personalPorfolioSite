@@ -1,220 +1,3 @@
-* {
-  font-family: "Poppins", sans-serif;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(30, 30, 30);
-  color: white;
-  padding: 1em 1em 1em 1em;
-  width: 100%;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  width: 30em;
-}
-
-a {
-  position: relative;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5em;
-  letter-spacing: 0.5px;
-}
-
-a:after {
-  content: "";
-  position: absolute;
-  background-color: white;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
-
-a:hover:after {
-  width: 100%;
-}
-
-.logo {
-  height: 100px;
-  width: 100px;
-}
-
-.logo img {
-  border-radius: 50%;
-  height: 100%;
-  width: 100%;
-}
-
-ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 30rem;
-}
-
-li {
-  list-style: none;
-}
-
-/* Body Section Starts */
-
-/* About Me Section Starts */
-
-body {
-  font-size: 14px;
-  font-family: sans-serif;
-  margin: 0px;
-}
-
-.about-me {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: auto;
-  position: auto;
-
-  padding: 10em;
-}
-
-.aboutmepic {
-  height: 400px;
-  width: 500px;
-}
-
-.text-right {
-  align-items: center;
-  max-width: 360px;
-}
-
-.aboutmepic img {
-  height: 100%;
-  width: 100%;
-}
-
-.text-right .about-me-1 {
-  font-size: 3em;
-  padding-bottom: -20px;
-  max-height: 50px;
-}
-
-.text-right .about-me-text {
-  font-size: 1.25em;
-}
-
-/* About Me Section Ends */
-
-.freelance {
-  padding: 10em;
-  margin: auto;
-}
-
-.freelance-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding-bottom: 3rem;
-}
-
-.freelance-title {
-  text-align: center;
-  align-items: top;
-  font-size: 3em;
-  background-color: white;
-  line-height: 1;
-  margin-bottom: 2px;
-}
-
-.freelance-desc {
-  text-align: center;
-  font-size: 1.25em;
-  margin-bottom: 25px;
-}
-
-.grid {
-  display: grid;
-  text-align: center;
-  justify-content: center;
-
-  grid-template-columns: repeat(auto-fit, 20rem);
-  grid-gap: 20px 50px;
-
-  margin-right: 150px;
-  margin-left: 150px;
-}
-
-/* Portfolio Section Starts */
-
-.portfolio-header {
-  text-align: center;
-  margin-top: 75px;
-  margin-bottom: 50px;
-}
-
-.grid1 {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-  margin-bottom: 55px;
-}
-
-.gridItems {
-  margin: 10px;
-}
-
-/* Porftfolio Section Ends */
-
-/* Get in Touch Section starts */
-
-.contact-me-form {
-  text-align: center;
-}
-
-input {
-  padding: 12px 20px;
-  width: 25%;
-  margin: 8px 0;
-  border-radius: 4px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  text-align: center;
-  background: transparent;
-  border: transparent;
-  border-bottom: 1px solid;
-  justify-content: center;
-}
-
-textarea {
-  padding: 10px 250px 10px 250px;
-  min-width: 25%;
-  max-width: 25%;
-  background-color: transparent;
-  border: transparent;
-  border-bottom: 1px solid;
-  margin-bottom: 13px;
-  height: 120px;
-  text-align: center;
-  justify-content: center;
-}
-
-.header-form {
-  text-align: center;
-}
-
-/* Get in Touch Section ends */
-
 /* Media query for phone devices */
 
 @media only screen and (max-width: 767px) {
@@ -424,8 +207,12 @@ textarea {
 
   .portfolio {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
+    margin: 5em;
   }
 
   .gridItems {
@@ -479,6 +266,228 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 1em 1em 1em 1em;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 30em;
+  }
+
+  a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+  }
+
+  a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .logo img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30rem;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  /* Body Section Starts */
+
+  /* About Me Section Starts */
+
+  body {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0px;
+  }
+
+  .about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    position: auto;
+
+    padding: 10em;
+  }
+
+  .aboutmepic {
+    height: 400px;
+    width: 500px;
+  }
+
+  .text-right {
+    align-items: center;
+    max-width: 360px;
+  }
+
+  .aboutmepic img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .text-right .about-me-1 {
+    font-size: 3em;
+    padding-bottom: -20px;
+    max-height: 50px;
+  }
+
+  .text-right .about-me-text {
+    font-size: 1.25em;
+  }
+
+  /* About Me Section Ends */
+
+  .freelance {
+    padding: 10em;
+    margin: auto;
+  }
+
+  .freelance-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 3rem;
+  }
+
+  .freelance-title {
+    text-align: center;
+    align-items: top;
+    font-size: 3em;
+    background-color: white;
+    line-height: 1;
+    margin-bottom: 2px;
+  }
+
+  .freelance-desc {
+    text-align: center;
+    font-size: 1.25em;
+    margin-bottom: 25px;
+  }
+
+  .grid {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 50px;
+
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  /* Portfolio Section Starts */
+
+  .portfolio-header {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+
+  .grid1 {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 55px;
+  }
+
+  .gridItems {
+    margin: 10px;
+  }
+
+  /* Porftfolio Section Ends */
+
+  /* Get in Touch Section starts */
+
+  .contact-me-form {
+    text-align: center;
+  }
+
+  input {
+    padding: 12px 20px;
+    width: 25%;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    justify-content: center;
+  }
+
+  textarea {
+    padding: 10px 250px 10px 250px;
+    min-width: 25%;
+    max-width: 25%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid;
+    margin-bottom: 13px;
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header-form {
+    text-align: center;
+  }
+
+  /* Get in Touch Section ends */
   .logo {
     height: 100px;
     width: 100px;
@@ -487,5 +496,14 @@ textarea {
 
   .freelance-web {
     display: none;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
   }
 }
