@@ -211,7 +211,7 @@
   /* Portfolio Section Starts */
 
   .portfolio {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
@@ -458,6 +458,41 @@
     margin-bottom: 50px;
   }
 
+  .portfolio {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto;
+    padding: 10em;
+  }
+
+  .portfolio-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto;
+  }
+
+  .one1 {
+    background-color: orange;
+    width: 100%;
+  }
+
+  .two2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    width: 100%;
+  }
+
   .grid1 {
     display: flex;
     justify-content: center;
@@ -514,15 +549,5 @@
 
   .freelance-web {
     display: none;
-  }
-
-  .portfolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    margin: auto;
-    padding: 10em;
   }
 }
