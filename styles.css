@@ -211,7 +211,7 @@
   /* Portfolio Section Starts */
 
   .portfolio {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
@@ -273,17 +273,24 @@
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+
+    width: 100%;
+    margin: auto;
   }
 
   header {
     display: flex;
     align-items: center;
     justify-content: center;
+
     background-color: rgb(30, 30, 30);
     color: white;
-    padding: 1em 1em 1em 1em;
+
+    padding: 10em;
     width: 100%;
+    margin: auto;
   }
 
   nav {
@@ -357,7 +364,14 @@
     margin: auto;
     position: auto;
 
+    width: 100%;
     padding: 10em;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 15em;
   }
 
   .aboutmepic {
@@ -386,15 +400,17 @@
   }
 
   /* About Me Section Ends */
+  /* Freelance Section Begins */
 
   .freelance {
+    display: grid;
     align-items: center;
     justify-content: center;
 
     width: 100%;
     margin: auto;
 
-    padding: 5em;
+    padding: 10em;
   }
 
   .freelance-header {
@@ -433,12 +449,48 @@
     margin-left: 150px;
   }
 
+  /* Freelance Section Ends */
   /* Portfolio Section Starts */
 
   .portfolio-header {
     text-align: center;
     margin-top: 75px;
     margin-bottom: 50px;
+  }
+
+  .portfolio {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto;
+    padding: 10em;
+  }
+
+  .portfolio-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin: auto;
+  }
+
+  .one1 {
+    background-color: orange;
+    width: 100%;
+  }
+
+  .two2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    width: 100%;
   }
 
   .grid1 {
@@ -457,6 +509,7 @@
   /* Get in Touch Section starts */
 
   .contact-me-form {
+    display: none;
     text-align: center;
   }
 
@@ -493,22 +546,8 @@
   }
 
   /* Get in Touch Section ends */
-  .logo {
-    height: 100px;
-    width: 100px;
-    margin-right: 15em;
-  }
 
   .freelance-web {
     display: none;
-  }
-
-  .portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
   }
 }
