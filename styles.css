@@ -474,6 +474,7 @@
   /* Get in Touch Section starts */
 
   .contact-me-form {
+    display: none;
     text-align: center;
   }
 
