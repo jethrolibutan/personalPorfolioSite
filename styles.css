@@ -288,7 +288,7 @@
     background-color: rgb(30, 30, 30);
     color: white;
 
-    padding: 10em;
+    padding: 1em;
     width: 100%;
     margin: auto;
   }
@@ -365,7 +365,7 @@
     position: auto;
 
     width: 100%;
-    padding: 10em;
+    padding: 1em;
   }
 
   .logo {
@@ -410,7 +410,7 @@
     width: 100%;
     margin: auto;
 
-    padding: 10em;
+    padding: 1em;
   }
 
   .freelance-header {
@@ -466,7 +466,7 @@
 
     width: 100%;
     margin: auto;
-    padding: 10em;
+    padding: 1em;
   }
 
   .portfolio-content {
