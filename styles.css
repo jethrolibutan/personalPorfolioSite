@@ -507,7 +507,17 @@
     align-items: center;
     justify-content: center;
 
-    background-color: red;
+    width: 100%;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     margin-right: 5em;
     margin-left: 5em;
@@ -516,6 +526,19 @@
   .screenshots {
     width: 725px;
     height: 400px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+
+  .screenshots2 {
+    margin: 1em;
+
+    max-width: 362px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
     object-fit: cover;
     object-position: center center;
     display: block;
