@@ -366,6 +366,8 @@
 
     width: 100%;
     padding: 1em;
+    padding-top: 10em;
+    padding-bottom: 11em;
   }
 
   .logo {
@@ -411,6 +413,8 @@
     margin: auto;
 
     padding: 1em;
+    padding-top: 7em;
+    padding-bottom: 7em;
   }
 
   .freelance-header {
@@ -459,7 +463,7 @@
   }
 
   .portfolio {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -467,6 +471,8 @@
     width: 100%;
     margin: auto;
     padding: 1em;
+    padding-top: 7em;
+    padding-bottom: 12em;
   }
 
   .portfolio-content {
@@ -476,12 +482,24 @@
     justify-content: center;
 
     width: 100%;
-    margin: auto;
   }
 
   .one1 {
-    background-color: orange;
+    background-color: white;
     width: 100%;
+    margin-right: 2em;
+    margin-left: 5em;
+  }
+
+  .sectionTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .sectionTechnology {
+    font-size: 1em;
+    font-weight: bold;
   }
 
   .two2 {
@@ -489,8 +507,41 @@
     align-items: center;
     justify-content: center;
 
-    background-color: red;
     width: 100%;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+
+  .screenshots {
+    width: 725px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+
+  .screenshots2 {
+    margin: 1em;
+
+    max-width: 362px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+    object-fit: cover;
+    object-position: center center;
+    display: block;
   }
 
   .grid1 {
