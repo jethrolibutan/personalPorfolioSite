@@ -211,7 +211,8 @@
   /* Portfolio Section Starts */
 
   .portfolio {
-    display: none;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -223,45 +224,105 @@
     margin: auto;
   }
 
+  .portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .one1 {
+    background-color: white;
+    width: 100%;
+    margin-right: 2em;
+    margin-left: 5em;
+  }
+
+  .sectionTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .sectionTechnology {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .two2 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-right: 5em;
+    margin-left: 5em;
+  }
+
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-left: 2em;
+  }
+
+  .three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    margin-left: 2em;
+  }
+
+  .screenshots {
+    width: 725px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+
+  .screenshots2 {
+    margin: 1em;
+
+    max-width: 362px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+
   /* Porftfolio Section Ends */
 
   /* Get in Touch Section starts */
 
   .contact-me-form {
-    display: none;
-    text-align: center;
-  }
-
-  input {
-    padding: 12px 20px;
-    width: 25%;
-    margin: 8px 0;
-    border-radius: 4px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    text-align: center;
-    background: transparent;
-    border: transparent;
-    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+
+    padding: 5em;
+
+    width: 100%;
   }
 
-  textarea {
-    padding: 10px 250px 10px 250px;
-    min-width: 25%;
-    max-width: 25%;
-    background-color: transparent;
-    border: transparent;
-    border-bottom: 1px solid;
-    margin-bottom: 13px;
-    height: 120px;
-    text-align: center;
+  form {
+    display: flex;
     justify-content: center;
-  }
-
-  .header-form {
-    text-align: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
   }
 }
 
