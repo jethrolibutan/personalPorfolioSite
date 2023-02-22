@@ -334,7 +334,7 @@
 
            <div class="two2">
                 <div>
-                    <img src="images/newImages.png" class="screenshots">
+                    <img src="images/farm2ClinicHome.png" class="screenshots">
                 </div>
             </div>
         </div>
@@ -366,6 +366,32 @@
            </div>
         </div>
 
+        <div class="portfolio-content">
+
+            <div class="one1">
+                <div class="sectionTitle">
+                    My Personal Website
+                </div>
+                <div class="sectionTechnology">
+                    HTML, CSS
+                </div>
+                <div>
+                    <p>
+                        This is the site you are currently on :). This was super fun to make
+                        and I plan on adding more to this "portfolio" section of the website 
+                        as I involve myself in more projects. Thanks for visiting!
+                    </p>
+                </div>
+            </div>
+
+           <div class="three">
+                <div>
+                    <img src="images/personalPort1.jpg" class="screenshots2">
+                    <img src="images/personalPort2.jpg" class="screenshots2">
+                </div>
+           </div>
+        </div>
+
 
         <div class="portfolio-content">
 
@@ -379,18 +405,36 @@
 
     <div class="contact-me-form" id="contact">
 
-        <div class="header-form">
+        <div class="contact-me-header">
 
-            <h2> Get in Touch </h2>
-            <p> Fill out this form and I will try to get back to you within 24 hours. </p>
+            <div>
+                <h1> Contact Me</h1>
+            </div>
+            
+
+            <div>
+                <p class="contact-desc"> 
+                    Fill out this form to get into contact with me and 
+                    I will try to get back to you in the next 24 hours! :)
+                </p>
+            </div>
+           
 
         </div>
 
-        <form class="form1">
-            <input id = "name" type = "text" placeholder= "Your Name" class="form1"> <br>
-            <input id = "email" type = "text" placeholder= "Your Email" class="form1"> <br>
-            <textarea name = "message" id="message" placeholder = "Your Message"></textarea> <br>
-            <button class="download2" id="submit" href="#"> Send Message </button>
+        
+
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgvqyvw" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Type your message out here!" required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input class="submit-button" type="submit" value="Submit">
         </form>
 
     </div>
