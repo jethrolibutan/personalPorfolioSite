@@ -328,25 +328,17 @@
     padding: 5em;
   }
 
-  .contact-desc {
-    padding-left: 1.25em;
-  }
-
   form {
     display: block;
     width: 80%;
     margin: auto;
-
-    padding-left: 2em;
-    /* border: 1px solid #ccc;
-    background-color: #f2f2f2; */
   }
 
   input,
   textarea {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -664,36 +656,60 @@
   /* Get in Touch Section starts */
 
   .contact-me-form {
-    display: none;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding-bottom: 7em;
   }
 
-  input {
-    padding: 12px 20px;
-    width: 25%;
-    margin: 8px 0;
-    border-radius: 4px;
-    display: inline-block;
+  .contact-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    max-width: 360px;
+    padding: 5em;
+  }
+
+  .contact-desc {
+    padding-left: 1.25em;
+  }
+
+  form {
+    display: block;
+    width: 50%;
+    margin: auto;
+
+    padding-left: 2em;
+    /* border: 1px solid #ccc;
+    background-color: #f2f2f2; */
+  }
+
+  .submit-button {
+    margin-top: 1em;
+  }
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    text-align: center;
-    background: transparent;
-    border: transparent;
-    border-bottom: 1px solid;
-    justify-content: center;
+
+    resize: none;
+    overflow: auto;
   }
 
-  textarea {
-    padding: 10px 250px 10px 250px;
-    min-width: 25%;
-    max-width: 25%;
-    background-color: transparent;
-    border: transparent;
-    border-bottom: 1px solid;
-    margin-bottom: 13px;
-    height: 120px;
-    text-align: center;
-    justify-content: center;
+  .submit-button {
+    margin-top: 1em;
   }
 
   .header-form {
@@ -702,7 +718,31 @@
 
   /* Get in Touch Section ends */
 
-  .freelance-web {
-    display: none;
+  /* Footer Section Starts */
+
+  footer {
+    display: flex; /* use flexbox layout */
+    flex-direction: row;
+    justify-content: center; /* evenly distribute the sections along the horizontal axis */
+    align-items: center; /* center the content vertically within the footer */
+    width: 100%;
+  }
+
+  footer div {
+    flex: 1; /* distribute available space equally among the three sections */
+    padding: 1em; /* add some padding around each section */
+    text-align: center; /* center the content within each section */
+  }
+
+  footer ul {
+    list-style: none; /* remove bullet points from the list items */
+    margin: 0; /* remove default margins from the list */
+    padding: 0; /* remove default padding from the list */
+  }
+
+  footer ul li {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em; /* add some space between list items */
   }
 }
