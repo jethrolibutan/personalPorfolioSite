@@ -726,15 +726,23 @@
     justify-content: center; /* evenly distribute the sections along the horizontal axis */
     align-items: center; /* center the content vertically within the footer */
     width: 100%;
+    margin: auto;
+    padding: 1em;
+
+    background-color: black;
+    color: white;
   }
 
   footer div {
     flex: 1; /* distribute available space equally among the three sections */
-    padding: 1em; /* add some padding around each section */
+    padding: 0em; /* add some padding around each section */
     text-align: center; /* center the content within each section */
   }
 
   footer ul {
+    display: block;
+    justify-content: center;
+    align-items: center;
     list-style: none; /* remove bullet points from the list items */
     margin: 0; /* remove default margins from the list */
     padding: 0; /* remove default padding from the list */
