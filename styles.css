@@ -753,4 +753,44 @@
     flex-direction: row;
     margin-right: 1em; /* add some space between list items */
   }
+
+  .linksBottom {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+  }
+
+  .linksBottom:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  .linksBottom:hover:after {
+    width: 100%;
+  }
+
+  /* Individual Sections in the Footer */
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socialsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
