@@ -390,7 +390,7 @@
     align-items: center;
     justify-content: space-between;
 
-    width: 30em;
+    width: 35em;
   }
 
   a {
@@ -445,7 +445,6 @@
   body {
     font-size: 14px;
     font-family: sans-serif;
-    margin: 0px;
   }
 
   .about-me {
@@ -564,7 +563,7 @@
     margin: auto;
     padding: 1em;
     padding-top: 7em;
-    padding-bottom: 12em;
+    padding-bottom: 1em;
   }
 
   .portfolio-content {
@@ -573,8 +572,7 @@
     align-items: center;
     justify-content: center;
     
-    margin: 5em;
-
+    margin: 2em;
     width: 100%;
   }
 
@@ -662,6 +660,26 @@
   }
 
   /* Porftfolio Section Ends */
+
+  /* Blog Section Starts */
+
+  .blog-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    width: 30em;
+    height: 15em;
+  }
+
+  .blog-header a{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  /* Blog Section Ends */
 
   /* Get in Touch Section starts */
 
